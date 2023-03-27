@@ -1,6 +1,6 @@
 ### Password generator project
 
-## running
+*how to install and run*
 ```
 virtualenv venv
 source venv/bin/activate

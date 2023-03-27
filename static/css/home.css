@@ -1,0 +1,89 @@
+/* General styles */
+body {
+  background-color: #5333d0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #001104c0;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #cedf5f91;
+  box-shadow: 0 0.25rem 0.5rem rgba(172, 239, 26, 0.844);
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #d53209;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+input[type="checkbox"] {
+  margin: 0.5rem 0;
+}
+
+select {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 0.5rem rgba(163, 197, 108, 0.352);
+  color: #79ff72;
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ff8e72;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff6f69;
+}
+
+/* Additional styles */
+.copy-button {
+  background-color: #6fdc8a;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.277);
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-button:hover {
+  background-color: #9fc5e8;
+}
+
+.password-container {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ff8e72;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.5rem rgba(2, 0, 2, 0.1);
+}

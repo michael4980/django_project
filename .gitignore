@@ -1,0 +1,4 @@
+*/__pycache__
+generator/__pycache__
+generator/migrations/__pycache__
+password_generator/__pycache__
